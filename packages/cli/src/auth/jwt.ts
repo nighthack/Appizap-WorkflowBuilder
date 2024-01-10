@@ -87,7 +87,9 @@ export async function issueCookie(res: Response, user: User): Promise<void> {
 	const userData = issueJWT(user);
 	res.cookie(AUTH_COOKIE_NAME, userData.token, {
 		maxAge: userData.expiresIn,
-		httpOnly: true,
-		sameSite: 'lax',
+		httpOnly: false,
+		sameSite: 'none',
+		withCredentials: true,
+		secure: true,
 	});
 }
