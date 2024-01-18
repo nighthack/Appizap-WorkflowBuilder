@@ -89,7 +89,6 @@ export async function issueCookie(res: Response, user: User): Promise<void> {
 		maxAge: userData.expiresIn,
 		httpOnly: false,
 		sameSite: 'none',
-		withCredentials: true,
 		secure: true,
 	});
 }
