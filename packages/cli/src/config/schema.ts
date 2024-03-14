@@ -759,7 +759,7 @@ export const schema = {
 		jwtSecret: {
 			doc: 'Set a specific JWT secret (optional - n8n can generate one)', // Generated @ start.ts
 			format: String,
-			default: '',
+			default: 'super-secret-jwt-key',
 			env: 'N8N_USER_MANAGEMENT_JWT_SECRET',
 		},
 		isInstanceOwnerSetUp: {
