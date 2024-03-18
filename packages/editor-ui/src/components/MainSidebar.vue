@@ -250,14 +250,14 @@ export default defineComponent({
 					position: 'top',
 					activateOnRouteNames: [VIEWS.CREDENTIALS],
 				},
-				{
-					id: 'variables',
-					icon: 'variable',
-					label: this.$locale.baseText('mainSidebar.variables'),
-					customIconSize: 'medium',
-					position: 'top',
-					activateOnRouteNames: [VIEWS.VARIABLES],
-				},
+				// {
+				// 	id: 'variables',
+				// 	icon: 'variable',
+				// 	label: this.$locale.baseText('mainSidebar.variables'),
+				// 	customIconSize: 'medium',
+				// 	position: 'top',
+				// 	activateOnRouteNames: [VIEWS.VARIABLES],
+				// },
 				{
 					id: 'executions',
 					icon: 'tasks',

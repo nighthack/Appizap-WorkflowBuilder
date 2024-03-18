@@ -184,15 +184,15 @@ export const routes = [
 			middleware: ['authenticated'],
 		},
 	},
-	{
-		path: '/variables',
-		name: VIEWS.VARIABLES,
-		components: {
-			default: VariablesView,
-			sidebar: MainSidebar,
-		},
-		meta: { middleware: ['authenticated'] },
-	},
+	// {
+	// 	path: '/variables',
+	// 	name: VIEWS.VARIABLES,
+	// 	components: {
+	// 		default: VariablesView,
+	// 		sidebar: MainSidebar,
+	// 	},
+	// 	meta: { middleware: ['authenticated'] },
+	// },
 	{
 		path: '/executions',
 		name: VIEWS.EXECUTIONS,

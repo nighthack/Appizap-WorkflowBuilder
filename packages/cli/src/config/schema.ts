@@ -1111,7 +1111,7 @@ export const schema = {
 		enabled: {
 			doc: 'Whether personalization is enabled.',
 			format: Boolean,
-			default: true,
+			default: false,
 			env: 'N8N_PERSONALIZATION_ENABLED',
 		},
 	},

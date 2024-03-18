@@ -25,7 +25,7 @@
 			</template>
 		</BreakpointsObserver>
 
-		<span v-if="settingsStore.areTagsEnabled" class="tags" data-test-id="workflow-tags-container">
+		<!-- <span v-if="settingsStore.areTagsEnabled" class="tags" data-test-id="workflow-tags-container">
 			<TagsDropdown
 				v-if="isTagsEditEnabled && !readOnly"
 				ref="dropdown"
@@ -53,7 +53,7 @@
 				@click="onTagsEditEnable"
 			/>
 		</span>
-		<span v-else class="tags"></span>
+		<span v-else class="tags"></span> -->
 
 		<PushConnectionTracker class="actions">
 			<span :class="`activator ${$style.group}`">
